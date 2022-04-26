@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Resources [
+<!ELEMENT Resources (ResourcesInfo+)>
+<!ELEMENT ResourcesInfo (Previous_Year_Papers, Notes, Projects, UnID)>
+<!ATTLIST ResourcesInfo id ID #REQUIRED>
+<!ELEMENT Previous_Year_Papers (#PCDATA)>
+<!ELEMENT Notes (#PCDATA)>
+<!ELEMENT Projects (#PCDATA)>
+<!ELEMENT UnID (#PCDATA)>
+]>
+<Resources>
+<ResourcesInfo id = "id1">
+<Previous_Year_Papers>Semester End Material</Previous_Year_Papers>
+<Notes>Module 3 and 4</Notes>
+<Projects>AI Powered Robot</Projects>
+<UnID>456</UnID>
+</ResourcesInfo>
+<ResourcesInfo id = "id2">
+<Previous_Year_Papers>Mid Sem Exam Material</Previous_Year_Papers>
+<Notes>MODULE 1-7</Notes>
+<Projects>Football With ML</Projects>
+<UnID>23</UnID>
+</ResourcesInfo>
+<ResourcesInfo id = "id3">
+<Previous_Year_Papers>Semester End Material</Previous_Year_Papers>
+<Notes>MOUDLE 4 and 5</Notes>
+<Projects>MOOD DETECTION USING AI</Projects>
+<UnID>34</UnID>
+</ResourcesInfo>
+</Resources>

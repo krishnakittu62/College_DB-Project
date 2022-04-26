@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ChRoom [
+<!ELEMENT ChRoom (ChRoomInfo+)>
+<!ELEMENT ChRoomInfo (Room_Name, Date, IP_Addr)>
+<!ATTLIST ChRoomInfo id ID #REQUIRED>
+<!ELEMENT Room_Name (#PCDATA)>
+<!ELEMENT Date (#PCDATA)>
+<!ELEMENT IP_Addr (#PCDATA)>
+]>
+<ChRoom>
+<ChRoomInfo id = "id1">
+<Room_Name>College Work</Room_Name>
+<Date>09/03/22</Date>
+<IP_Addr>192.168.1.1</IP_Addr>
+</ChRoomInfo>
+<ChRoomInfo id = "id2">
+<Room_Name>Exam Time</Room_Name>
+<Date>10/02/22</Date>
+<IP_Addr>192.168.2.3</IP_Addr>
+</ChRoomInfo>
+<ChRoomInfo id = "id3">
+<Room_Name>Friends For Life</Room_Name>
+<Date>01/01/22</Date>
+<IP_Addr>192.168.1.2</IP_Addr>
+</ChRoomInfo>
+</ChRoom>
+Resources.

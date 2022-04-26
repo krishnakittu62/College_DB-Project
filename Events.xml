@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Events [
+<!ELEMENT Events (EventsInfo+)>
+<!ELEMENT EventsInfo (EventName, EventDesc, EventDate)>
+<!ATTLIST EventsInfo id ID #REQUIRED>
+<!ELEMENT EventName (#PCDATA)>
+<!ELEMENT EventDesc (#PCDATA)>
+<!ELEMENT EventDate (#PCDATA)>
+]>
+<Events>
+<EventsInfo id = "id1">
+<EventName>TECH Fest</EventName>
+<EventDesc>Come and learn all things technology</EventDesc>
+<EventDate>09/02/2022</EventDate>
+</EventsInfo>
+<EventsInfo id = "id2">
+<EventName>Forex</EventName>
+<EventDesc>Come learn about stock market</EventDesc>
+<EventDate>15/02/22</EventDate>
+</EventsInfo>
+<EventsInfo id = "id3">
+<EventName>CODE IT LIKE YOU MEAN IT</EventName>
+<EventDesc>Coding Hackathon open for all</EventDesc>
+<EventDate>16/02/22</EventDate>
+</EventsInfo>
+</Events>

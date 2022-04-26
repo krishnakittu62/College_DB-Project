@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE clubs [
+<!ELEMENT clubs (ClubsInfo+)>
+<!ELEMENT ClubsInfo (Name, Club_Website, Club_Email)>
+<!ATTLIST ClubsInfo id ID #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Club_Website (#PCDATA)>
+<!ELEMENT Club_Email (#PCDATA)>
+]>
+<clubs>
+<ClubsInfo id = "id1">
+<Name>ACM</Name>
+<Club_Website>www.acm.in</Club_Website>
+<Club_Email>acm@gmail.com</Club_Email>
+</ClubsInfo>
+<ClubsInfo id = "id2">
+<Name>CSI</Name>
+<Club_Website>www.csi.in</Club_Website>
+<Club_Email>cseclub@gmail.com</Club_Email>
+</ClubsInfo>
+<ClubsInfo id = "id3">
+<Name>Dramatics</Name>
+<Club_Website>www.Dramaticsplease.ac.in</Club_Website>
+<Club_Email>drclub@gmail.com</Club_Email>
+</ClubsInfo>
+</clubs>
